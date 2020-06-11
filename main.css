@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-align: center;
+    background-color: #EDAFB8;
+    color: #000000;
+    font-family: 'Chelsea Market', cursive;
+}
+
+h1 {
+    font-size: 2rem;;
+    margin: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 1.5rem;
+}
+
+.text {
+    margin-bottom: 3rem;
+}
+
+.user-options-images {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: auto;
+}
+
+.icon {
+    width: 70px;
+}
+
+#user-options-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    height: 5vh;
+}
+
+button {
+    border: 2px solid #E8DDB5;
+}
+
+.choice {
+    width: 20%;
+    background-color: #95B8D1;
+    cursor: pointer;
+}
+
+#message {
+    font-size: 1.7rem;
+    margin: 3rem;
+}
+
+.score-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#computer-score , #user-score , span {
+    font-size: 1.7rem;
+    margin: 1rem;
+}
